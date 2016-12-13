@@ -1,6 +1,6 @@
 {
   "name": "Mineweeper",
   "tagline": "",
-  "body": "This is a Command-Line Minesweeper function.\r\n\r\nRun \"minesweeper.cpp\" to begin. \r\n\r\nWhen you want to click a point, input the x and y value of it.\r\n\r\nWhen you hit the mine\r\n\r\nOops! Game over!\r\n\r\nThough the game which our group developed is very crude.\r\n\r\nBut I'm still proud of my work.\r\n\r\nExample:\r\n\r\n![Unicorn](http://github.com/Ning000/Minesweeper/blob/gh-pages/a.png)",
+  "body": "This is a Command-Line Minesweeper function.\r\n\r\nRun \"minesweeper.cpp\" to begin. \r\n\r\nWhen you want to click a point, input the x and y value of it.\r\n\r\nWhen you hit the mine\r\n\r\nOops! Game over!\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
