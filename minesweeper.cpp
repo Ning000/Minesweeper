@@ -1,17 +1,11 @@
 #include <iostream>
 
-#include <ctime>
-
-      
+#include <ctime>      
 
 using namespace std;
 
-
-
 const int areaLen=12;
 const int num=10;
-
-
 
 void food(int [][areaLen]);
 void initHide(int [][areaLen]);
@@ -19,8 +13,6 @@ void initArea(int [][areaLen]);
 void refresh(int [][areaLen]);
 bool end(int, int, int [][areaLen]);
 bool win(int [][areaLen], int [][areaLen]);
-
-
 
 int main()
 {
@@ -49,8 +41,6 @@ int main()
 }
 
 
-
-
 void initArea(int area[areaLen][areaLen])
 {
     int i,j;
@@ -62,8 +52,6 @@ void initArea(int area[areaLen][areaLen])
     for(j=1; j<areaLen-1; ++j)
     area[i][j]=9;
 }
-
-
 
 
 void initHide(int hide[areaLen][areaLen])
@@ -139,7 +127,6 @@ void refresh(int area[areaLen][areaLen])
 }
 
 
-
 //see if game is over
 bool end(int x, int y, int hide[areaLen][areaLen])
 {
@@ -150,7 +137,6 @@ bool end(int x, int y, int hide[areaLen][areaLen])
     }
     return 1;
 }
-
 
 
 bool win(int area[areaLen][areaLen], int hide[areaLen][areaLen])
