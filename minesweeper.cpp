@@ -1,16 +1,3 @@
-When you hit the mine
-
-Oops! Game over!
-
-Though the game which our group developed is very crude.
-
-But I'm still proud of my work.
-
-It is the first step of my developer career.
-
-The code in here:
-
-
 #include <iostream>
 
 #include <ctime>
